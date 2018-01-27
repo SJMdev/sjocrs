@@ -2,5 +2,4 @@
 
 Lexer::~Lexer()
 {
-	delete d_api;
 }

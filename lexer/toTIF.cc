@@ -3,5 +3,5 @@
 void Lexer::toTIF()
 {
 
-	d_image.write(d_filename);
+	// d_image.write(d_filename);
 }

@@ -4,7 +4,16 @@
 #include <tesseract/baseapi.h>
 #include <leptonica/allheaders.h>
 #include <Magick++.h> 
+#include <vector>
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
 
 using namespace std;
 
 using namespace Magick;
+
+using namespace cv;

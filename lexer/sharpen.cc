@@ -5,5 +5,5 @@
 
 void Lexer::sharpen(size_t intensity)
 {
-	d_image.sharpen(intensity);
+	// d_image.sharpen(intensity);
 }
