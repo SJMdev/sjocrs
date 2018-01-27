@@ -5,6 +5,8 @@
 #include <Magick++.h> 
 #include <string>
 
+using namespace Magick;
+
 
 class Lexer
 {
@@ -15,6 +17,8 @@ class Lexer
 
     public:
     	Lexer();
+    	
+    	~Lexer();
     	void read(std::string filename);
     	void sharpen(size_t intensity);
     	void toTIF();

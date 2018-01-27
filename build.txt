@@ -1,7 +1,20 @@
 g++ -o main *.cc */*.cc  -llept -ltesseract -std=c++17
 
 
+without opencv:
 g++ `Magick++-config --cxxflags --cppflags` -o main *.cc */*.cc  -llept -ltesseract -std=c++17 `Magick++-config --ldflags --libs`
+
+
+
+with opencv:
+g++ `Magick++-config --cxxflags --cppflags` -o main *.cc */*.cc  -llept -ltesseract -std=c++17 `Magick++-config --ldflags --libs` -lopencv_core -lopencv_videoio -lopencv_highgui
+
+with imgcodecs from opencv:
+
+g++ `Magick++-config --cxxflags --cppflags` -o main *.cc */*.cc  -llept -ltesseract -std=c++17 `Magick++-config --ldflags --libs` -lopencv_core -lopencv_highgui -lopencv_imgcodecs
+
+
+
 
 
 
