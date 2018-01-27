@@ -1,0 +1,10 @@
+#include "lexer.h"
+#include <string>
+#include <iostream>
+#include <tesseract/baseapi.h>
+#include <leptonica/allheaders.h>
+#include <Magick++.h> 
+
+using namespace std;
+
+using namespace Magick;

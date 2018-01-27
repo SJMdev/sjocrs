@@ -1,0 +1,5 @@
+sudo apt-get install libwebp-dev
+
+sudo apt-get install tesseract-ocr-[lang] (e.g. "nld");
+
+alle tesseract meuk

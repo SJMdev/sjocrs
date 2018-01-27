@@ -1,0 +1,9 @@
+g++ -o main *.cc */*.cc  -llept -ltesseract -std=c++17
+
+
+g++ `Magick++-config --cxxflags --cppflags` -o main *.cc */*.cc  -llept -ltesseract -std=c++17 `Magick++-config --ldflags --libs`
+
+
+
+g++  -O2 -Wall -o magick++ magick++.cpp `Magick++-config --ldflags --libs`
+

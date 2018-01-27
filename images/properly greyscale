@@ -1,0 +1,15 @@
+
+first use graytoning.sh
+then 
+
+convert testgray.jpg +dither -colors 3 -colors 2 -colorspace gray result2.jpg
+
+
+
+with normalization:
+convert testgray.jpg +dither -colors 3 -colors 2 -colorspace gray -normalize result2.jpg
+
+
+
+convert testgray.jpg +dither -colorspace gray -normalize resultno32.jpg
+
